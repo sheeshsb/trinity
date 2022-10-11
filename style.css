@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:  whitesmoke;
+}
+nav{
+	widht: 100vw;
+	background: maroon;
+	height: 10vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo{
+	width: 100px;
+	height: 90%;
+	
+	
+}
+.trinity-logo{
+	height: 100%;
+	width: 100%;
+}
+
+
+ul{
+
+	display: flex;
+
+	justify-content: center;
+	
+}
+
+li{
+	margin: 20px;
+	list-style-type: none;
+}
+li>a{
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: 24px;
+	margin: 20px;
+}
+li>a:hover{
+	color: gold;
+}
+
+.search-btn{
+	color: whitesmoke;
+	background: none;
+	border: 1px solid gold;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 15px;
+	margin-left: 15px;
+}
+
+.search-btn:hover{
+	background: gold;
+	color: maroon;
+	cursor: pointer;
+}
+
+#search{
+	height: 37px;
+	border-radius: 15px;
+}
+
+
+footer{
+	
+	padding-top: 18px;
+	color: whitesmoke;
+	background: maroon;
+	width: 100vw;
+
+	height: 8vh;
+	display: flex;
+	justify-content: center;
+	
+}
+

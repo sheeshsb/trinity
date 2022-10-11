@@ -1,0 +1,26 @@
+.events-wrapper{
+		display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 30px;
+	font-size: 28px;
+	flex-direction: column;
+	
+}
+h1{
+	text-align: center;
+	color: gold;
+	margin: 20px;
+	font-style: bold;
+}
+.events-wrapper>img{
+	height: 50vh;
+	width: 50vw;
+	border-radius: 10px;
+	margin: 20px;
+	
+}
+p{
+	font-style: italic;
+	font-size: 24px;
+}

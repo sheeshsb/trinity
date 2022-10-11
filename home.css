@@ -1,0 +1,73 @@
+.photo-section{
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.big-photo{
+width: 100vw;
+
+}
+
+.marq-text{
+
+	font-size: 38px;
+	color: maroon;
+	font-style: italic;
+}
+marquee{
+	margin: 20px 0 20px 0;
+}
+
+.aca-programs{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.aca-programs>h2,.events>h2{
+	text-align: center;
+	color: gold;
+	font-size: 32px;
+	font-style: bold;
+}
+
+.aca-programs>img{
+	width: 60vw;
+	height: 400px;
+	margin: 25px;
+	border-radius: 50%;
+	border: 1px solid gold;
+}
+
+
+.aca-programs>span{
+	color: maroon;
+	font-size: 30px;
+	font-style: bold;
+}
+
+.introtext{
+	width: 60vw;
+	
+	margin: auto;
+	font-size: 24px;
+	font-style: italic;
+	
+}
+
+.to-news{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 28px;
+	
+}
+
+.to-news-img{
+	width: 40vw;
+	height: 40vw;
+	
+}

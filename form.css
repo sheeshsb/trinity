@@ -1,0 +1,47 @@
+.form-wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+form{
+	margin: 20px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 110vh;
+	width: 70vw;
+	font-size: 24px;
+	color: white;
+	background: rgba(0,0,0,0.7) url('./photos/home.jpeg');
+	background-size: cover;
+	background-blend-mode: darken;
+	border-radius: 10px;
+	
+	
+}
+form>input,textarea{
+	width: 67%;
+	height: 30px;
+	margin: 5px;
+	border-radius: 6px;
+	border: 1px solid maroon;
+}
+textarea{
+	width: 67%;
+	height: 40%;
+}
+form>button{
+	color: whitesmoke;
+	background: none;
+	border: 1px solid gold;
+	padding: 10px;
+	margin: 15px;
+	font-size: 20px;
+	border-radius: 15px;
+}
+form>button:hover{
+	background: gold;
+	color: maroon;
+	cursor: pointer;
+}
